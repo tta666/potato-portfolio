@@ -577,7 +577,7 @@ img{display:block;max-width:100%}
 <!-- hero -->
 <header class="hero" id="hero">
 <div class="hero-img-wrap">
-<video autoplay="" class="hero-video" id="heroVideo" loop="" muted="" playsinline="" poster="media/hero-poster.webp" src="media/hero-loop.mp4"></video>
+<video class="hero-video" id="heroVideo" loop="" muted="" playsinline="" poster="media/hero-poster.webp" preload="none" src="media/hero-loop.mp4"></video>
 </div>
 <div class="hero-inner">
 <h1 class="hero-title">
@@ -2022,6 +2022,16 @@ window.addEventListener('load', () => ScrollTrigger.refresh());
     if (e.isIntersecting) { v.play().catch(()=>{}); } else { v.pause(); }
   }), { threshold: 0.15 });
   vids.forEach(v => io.observe(v));
+
+  /* 首屏：先用海报秒开，空闲/交互后再加载视频 */
+  const heroV = document.getElementById('heroVideo');
+  if (heroV) {
+    const kick = () => { heroV.play().catch(()=>{}); };
+    const idle = window.requestIdleCallback || (f => setTimeout(f, 1200));
+    idle(kick, { timeout: 3000 });
+    ['pointerdown','scroll','keydown','touchstart'].forEach(ev =>
+      window.addEventListener(ev, kick, { once: true, passive: true }));
+  }
 
   /* 作品环：默认只显示海报，悬停才加载播放（20 个视频同时流会打满连接数） */
   document.querySelectorAll('#wpRing .wp-card').forEach(c => {
