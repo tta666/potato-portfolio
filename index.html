@@ -542,6 +542,11 @@ img{display:block;max-width:100%}
   object-fit:contain;background:#000}
 .wp-masonry__item video{width:100%;height:auto;display:block}
 .work video{filter:saturate(1.05)}
+.sec-title-row{display:flex;align-items:baseline;gap:22px;flex-wrap:wrap}
+.cloud-link{font-family:var(--mono);font-size:clamp(12px,1.05vw,16px);line-height:1.5;color:#3b82f6;
+  text-decoration:none;letter-spacing:.01em;white-space:nowrap;position:relative;top:-7px;
+  transition:opacity .3s ease,transform .3s cubic-bezier(.22,1,.36,1)}
+.cloud-link:hover{opacity:.65;transform:translateY(-2px)}
 #navWorks{font-weight:700;letter-spacing:.1em}      /* 中文导航项与拉丁文对齐字重 */
 .hero-video{object-position:center center}           /* 竖构图裁切，保证封面主体完整 */
 .work .work-info{opacity:1;transform:none}          /* 视频卡片默认就显示标题 */
@@ -631,7 +636,7 @@ img{display:block;max-width:100%}
 <!-- works -->
 <section class="section" id="works">
 <div class="sec-head">
-<h2>作品 <em>集</em></h2>
+<div class="sec-title-row"><h2>作品 <em>集</em></h2><a class="cloud-link" href="https://pan.quark.cn/s/d342e46ccb67" rel="noopener" target="_blank">（试试网盘观看（♡´∀`♡））</a></div>
 <span class="sec-index">02 — Selected Works</span>
 </div>
 <div class="works-grid">
