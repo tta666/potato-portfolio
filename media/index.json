@@ -2,7 +2,7 @@
   {
     "index": 1,
     "file": "v01.mp4",
-    "poster": "v01.jpg",
+    "poster": "v01.webp",
     "source": "个人PV.mp4",
     "title": "个人PV",
     "duration": 27.54,
@@ -14,7 +14,7 @@
   {
     "index": 2,
     "file": "v02.mp4",
-    "poster": "v02.jpg",
+    "poster": "v02.webp",
     "source": "牧星传媒PV.mp4",
     "title": "牧星传媒PV",
     "duration": 71.32,
@@ -26,7 +26,7 @@
   {
     "index": 3,
     "file": "v03.mp4",
-    "poster": "v03.jpg",
+    "poster": "v03.webp",
     "source": "牧星传媒PV2.mp4",
     "title": "牧星传媒PV2",
     "duration": 29.23,
@@ -38,7 +38,7 @@
   {
     "index": 4,
     "file": "v04.mp4",
-    "poster": "v04.jpg",
+    "poster": "v04.webp",
     "source": "月色真美.mp4",
     "title": "月色真美",
     "duration": 18.85,
@@ -50,7 +50,7 @@
   {
     "index": 5,
     "file": "v05.mp4",
-    "poster": "v05.jpg",
+    "poster": "v05.webp",
     "source": "才不是恶魔合成 23.mp4",
     "title": "才不是恶魔合成 23",
     "duration": 22.67,
@@ -62,7 +62,7 @@
   {
     "index": 6,
     "file": "v06.mp4",
-    "poster": "v06.jpg",
+    "poster": "v06.webp",
     "source": "风格化.mp4",
     "title": "风格化",
     "duration": 26.01,
@@ -74,7 +74,7 @@
   {
     "index": 7,
     "file": "v07.mp4",
-    "poster": "v07.jpg",
+    "poster": "v07.webp",
     "source": "ai+ae调色MV.mp4",
     "title": "ai+ae调色MV",
     "duration": 111.9,
@@ -86,7 +86,7 @@
   {
     "index": 8,
     "file": "v08.mp4",
-    "poster": "v08.jpg",
+    "poster": "v08.webp",
     "source": "小春总合成.mp4",
     "title": "小春总合成",
     "duration": 9.85,
@@ -98,7 +98,7 @@
   {
     "index": 9,
     "file": "v09.mp4",
-    "poster": "v09.jpg",
+    "poster": "v09.webp",
     "source": "小春PV1部分.mp4",
     "title": "小春PV1部分",
     "duration": 12.77,
@@ -110,7 +110,7 @@
   {
     "index": 10,
     "file": "v10.mp4",
-    "poster": "v10.jpg",
+    "poster": "v10.webp",
     "source": "小春PV2部分.mp4",
     "title": "小春PV2部分",
     "duration": 6.1,
@@ -122,7 +122,7 @@
   {
     "index": 11,
     "file": "v11.mp4",
-    "poster": "v11.jpg",
+    "poster": "v11.webp",
     "source": "我们的歌.mp4",
     "title": "我们的歌",
     "duration": 10.03,
@@ -134,7 +134,7 @@
   {
     "index": 12,
     "file": "v12.mp4",
-    "poster": "v12.jpg",
+    "poster": "v12.webp",
     "source": "没招了.mp4",
     "title": "没招了",
     "duration": 15.4,
@@ -146,7 +146,7 @@
   {
     "index": 13,
     "file": "v13.mp4",
-    "poster": "v13.jpg",
+    "poster": "v13.webp",
     "source": "试剪1.mp4",
     "title": "试剪1",
     "duration": 11.18,
@@ -158,7 +158,7 @@
   {
     "index": 14,
     "file": "v14.mp4",
-    "poster": "v14.jpg",
+    "poster": "v14.webp",
     "source": "无畏契约logo.mp4",
     "title": "无畏契约logo",
     "duration": 7.55,
@@ -170,7 +170,7 @@
   {
     "index": 15,
     "file": "v15.mp4",
-    "poster": "v15.jpg",
+    "poster": "v15.webp",
     "source": "人物合成1.mp4",
     "title": "人物合成1",
     "duration": 6.43,
@@ -182,7 +182,7 @@
   {
     "index": 16,
     "file": "v16.mp4",
-    "poster": "v16.jpg",
+    "poster": "v16.webp",
     "source": "大丈夫.mp4",
     "title": "大丈夫",
     "duration": 8.92,
